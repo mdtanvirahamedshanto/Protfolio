@@ -738,7 +738,33 @@ footer ul li a:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* tab size  */
+@media screen and (max-width: 792px) {
+  .header_right .text_1 {
+    font-size: 0.5rem;
+  }
+  .header_right .text_2 {
+    font-size: 0.8rem;
+  }
 
+  .header_right .text_3 {
+    font-size: 1rem;
+  }
+  .header_right {
+    margin-top: 2rem;
+  }
+  .btn {
+    padding: 0.1rem 1rem;
+  }
+  #blog {
+    margin-top: 0.5rem;
+  }
+  .photo1 {
+    margin-top: 1.5rem;
+    width: 190px;
+    margin-bottom: 1rem;
+  }
+}
 /* Mobile res  */
 
 @media screen and (max-width: 600px) {
@@ -759,8 +785,14 @@ footer ul li a:hover {
   .header_right .text_3 {
     font-size: 1rem;
   }
+  .header_right {
+    margin-top: 2rem;
+  }
   .btn {
     padding: 0.1rem 1rem;
+  }
+  #blog {
+    margin-top: 0.5rem;
   }
   .photo1 {
     margin-top: 1.5rem;
